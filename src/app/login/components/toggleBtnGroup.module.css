@@ -1,0 +1,28 @@
+/* Toggle Btn */
+.toggleBtnBox {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.25rem;
+    padding: 0.25rem;
+    background-color: #faf6f5;
+    border-radius: 12px;
+}
+.toggleBtn {
+    width: 7rem;
+    height: 100%;
+    font-family: var(--font-Roboto);
+    line-height: var(--font-Roboto-lineHeight);
+    font-size: 1rem;
+    color: #757575;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+}
+.toggleBtn._active {
+    color: #b3885c;
+    font-weight: 600;
+    background-color: #fff;
+    box-shadow: 0px 2px 2px 0px rgba(191, 155, 123, 0.12);
+}

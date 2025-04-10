@@ -1,0 +1,36 @@
+/* Bubble */
+.imgWrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bubble {
+    position: absolute;
+}
+
+.bubble1 {
+    top: 18.7%;
+    left: 27.14%;
+}
+.bubble2 {
+    left: 23.24%;
+    bottom: 6.04%;
+}
+.bubble3 {
+    top: 46%;
+    left: -3.42%;
+}
+.bubble4 {
+    left: 40.95%;
+    bottom: 3.49%;
+}
+.bubble5 {
+    top: 29.28%;
+    left: 76.63%;
+}
+.bubble6 {
+    top: 44.42%;
+    left: 63%;
+}

@@ -1,0 +1,204 @@
+/* Layout */
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #faf6f5;
+    box-sizing: border-box;
+}
+.wrap {
+    display: flex;
+    max-width: 1340px;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+}
+.leftContainer {
+    flex-grow: 1;
+    position: relative;
+    background-color: #faf6f5;
+}
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 670px;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+/* Logo */
+.header {
+    position: absolute;
+    top: 1.875rem;
+    left: 1.875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-family: var(--font-Roboto);
+    line-height: var(--font-Roboto-lineHeight);
+    font-size: 36px;
+    color: #505050;
+    font-weight: 700;
+    text-decoration: none;
+}
+.logo .imgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+}
+
+/* Login Form */
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 360px;
+    padding: 4.1875rem 0.625rem;
+    box-sizing: content-box;
+}
+
+/* Form Title */
+.formTitWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+}
+.formTit {
+    font-family: var(--font-Roboto);
+    line-height: var(--font-Roboto-lineHeight);
+    font-size: 2rem;
+    color: #333;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+}
+.formTxt {
+    font-family: var(--font-Roboto);
+    line-height: var(--font-Roboto-lineHeight);
+    font-size: 1rem;
+    color: #505050;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* LogIn Btn */
+.dividerTxt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-Roboto);
+    line-height: var(--font-Roboto-lineHeight);
+    font-size: 0.875rem;
+    color: #505050;
+    font-weight: 400;
+}
+.dividerTxt::before,
+.dividerTxt::after {
+    content: '';
+    display: block;
+    width: 9.5rem;
+    height: 1px;
+    background-color: #efe9e8;
+}
+
+.btnBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+.btnLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3.25rem;
+    text-align: center;
+    font-family: var(--font-Roboto);
+    line-height: var(--font-Roboto-lineHeight);
+    font-size: 1rem;
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+    background: #bf9b7b;
+}
+
+/* Label Row */
+.labelRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.loginForm .guideTxt {
+    display: block;
+    font-family: var(--font-Roboto);
+    line-height: var(--font-Roboto-lineHeight);
+    font-size: 0.875rem;
+    color: #505050;
+    font-weight: 400;
+}
+.linkUtility {
+    display: block;
+    font-family: var(--font-Roboto);
+    line-height: var(--font-Roboto-lineHeight);
+    font-size: 0.875rem;
+    color: #b3885c;
+    font-weight: 400;
+}
+
+/* Bubble */
+.imgWrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bubble {
+    position: absolute;
+}
+
+.bubble1 {
+    top: 18.7%;
+    left: 27.14%;
+}
+.bubble2 {
+    left: 23.24%;
+    bottom: 6.04%;
+}
+.bubble3 {
+    top: 46%;
+    left: -3.42%;
+}
+.bubble4 {
+    left: 40.95%;
+    bottom: 3.49%;
+}
+.bubble5 {
+    top: 29.28%;
+    left: 76.63%;
+}
+.bubble6 {
+    top: 44.42%;
+    left: 63%;
+}

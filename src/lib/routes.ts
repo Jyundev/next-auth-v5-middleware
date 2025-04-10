@@ -1,3 +1,4 @@
-export const ROOT = '/';
-export const PUBLIC_ROUTES = ['/'];
-export const DEFAULT_REDIRECT = '/protected';
+export const ROOT = "/";
+export const PUBLIC_ROUTES = ["/", "/login"];
+
+export const DEFAULT_REDIRECT = "/protected";

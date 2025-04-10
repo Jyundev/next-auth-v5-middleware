@@ -1,0 +1,113 @@
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover,
+.input:-webkit-autofill:focus,
+.input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: #999;
+  text-fill-color: #999;
+}
+.inputBox input:focus,
+.textArea:focus,
+.select:focus {
+  outline: none;
+  /* border-color: var(--dpms-primary-50); */
+}
+
+/* Login Input */
+.loginInputWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.labelRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.loginInputWrap .label {
+  display: block;
+  font-family: var(--font-Roboto);
+  line-height: var(--font-Roboto-lineHeight);
+  font-size: 0.875rem;
+  color: #505050;
+  font-weight: 600;
+}
+.linkUtility {
+  display: block;
+  font-family: var(--font-Roboto);
+  line-height: var(--font-Roboto-lineHeight);
+  font-size: 0.875rem;
+  color: #b3885c;
+  font-weight: 400;
+}
+
+.inputBox {
+  position: relative;
+}
+.input {
+  width: 100%;
+  height: 3.25rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  color: #999;
+  font-family: var(--font-Roboto);
+  line-height: var(--font-Roboto-lineHeight);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.passwordInp {
+  padding: 0.5rem 3.375rem 0.5rem 1rem;
+}
+.input::placeholder {
+  color: #999;
+  font-family: var(--font-Roboto);
+  line-height: var(--font-Roboto-lineHeight);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.input:focus {
+  border-color: #bf9b7b;
+}
+.input._error {
+  border-color: #fd5773;
+}
+.errorMsg {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-family: var(--font-Roboto);
+  line-height: var(--font-Roboto-lineHeight);
+  font-size: 0.875rem;
+  color: #fd5773;
+  font-weight: 400;
+}
+.errorMsg::before {
+  content: "";
+  display: block;
+  width: 1rem;
+  height: 1rem;
+}
+
+.eyeBtn {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+}
+.eyeIcon {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.eyeVisible {
+}
+.eyeHidden {
+}

@@ -1,0 +1,90 @@
+.layerModalWrap {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalWrap {
+    max-width: 360px;
+    width: 100%;
+    padding: 1.875rem;
+    background-color: #fff;
+    border-radius: 24px;
+    box-shadow: 0px 4px 20px 0px rgba(51, 51, 51, 0.12);
+}
+.modalHeader {
+    margin-bottom: 1.25rem;
+}
+.modalTit {
+    font-family: var(--font-Roboto);
+    font-size: 1.25rem;
+    color: #333;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: var(--font-Roboto-lineHeight);
+}
+.modalTxt {
+    font-family: var(--font-Roboto);
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--font-Roboto-lineHeight);
+}
+.modalFooter {
+    margin-top: 1.875rem;
+}
+.btnBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+.btnBase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 3.25rem;
+    font-family: var(--font-Pretendard);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    border-radius: 0.75rem;
+    border: none;
+    background-color: transparent;
+    transition: var(--transition-base);
+}
+.btnSolid {
+    color: #fff;
+    background-color: #bf9b7b;
+}
+.btnClear {
+    height: auto;
+    color: #b3885c;
+}
+.btnSolid:hover:not(:disabled) {
+    background-color: #a17d5d;
+}
+.btnClear:hover:not(:disabled) {
+    color: #a17d5d;
+}
+.btnSolid:active:not(:disabled) {
+    background-color: #8f6540;
+}
+.btnClear:active:not(:disabled) {
+    color: #8f6540;
+}
+.btnSolid:disabled {
+    background-color: #c7c4c3;
+    cursor: not-allowed;
+}
+.btnClear:disabled {
+    color: #c7c4c3;
+    cursor: not-allowed;
+}
